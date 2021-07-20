@@ -16,10 +16,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        redViewLight.layer.cornerRadius = 50
+        yellowViewLight.layer.cornerRadius = 50
+        greenViewLight.layer.cornerRadius = 50
     }
 
     @IBAction func startButtonTapped() {
+        startButton.setTitle("Next", for: .normal)
     }
     
 }

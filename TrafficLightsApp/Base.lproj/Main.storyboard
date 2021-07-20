@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMb-9S-Lrf">
-                                <rect key="frame" x="167.5" y="720" width="79" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMb-9S-Lrf">
+                                <rect key="frame" x="167.5" y="698" width="79" height="51"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="35"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
@@ -68,6 +68,7 @@
                             <constraint firstItem="Vqi-1F-cf4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e4X-DO-Xcn"/>
                             <constraint firstItem="AMb-9S-Lrf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jKK-91-85g"/>
                             <constraint firstItem="rrY-Iw-ibH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mCw-my-AOj"/>
+                            <constraint firstItem="AMb-9S-Lrf" firstAttribute="top" secondItem="4zD-fV-TsD" secondAttribute="bottom" constant="70" id="tjT-3V-Xgv"/>
                         </constraints>
                     </view>
                     <connections>
